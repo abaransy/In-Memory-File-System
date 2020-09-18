@@ -1,5 +1,5 @@
 # In-Memory File System
-A trie-based commaned-line file system, implemented in C++
+A trie-based command-line file system, implemented in C++
 
 ## Some Key Features
 * Allows users to make a directory
