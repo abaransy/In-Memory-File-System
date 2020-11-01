@@ -31,7 +31,8 @@ void createNode(string path, bool isFile, string content) {
         stringstream ss(path);
         
         while(getline(ss, curr, '/')) paths.push_back(curr);
-    //We use the parsed path name to navigate down the trie, until we reach the desired directory or file
+    //We use the parsed path name to navigate down the trie, 
+    //until we reach the desired directory or file
         for(auto p : paths) {
             if (temp->names[p]) {
                 temp = temp->names[p];

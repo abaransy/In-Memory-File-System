@@ -81,7 +81,7 @@ public:
     }
     
     string readContentFromFile(string filePath) {
-         TrieNode* temp = root;
+        TrieNode* temp = root;
         vector<string> paths;
         vector<string> answer;
         string curr;
